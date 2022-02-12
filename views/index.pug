@@ -5,8 +5,11 @@ head
   meta(name='viewport' content='width=device-width, initial-scale=1.0')
   title Dance-Website
   link(rel='stylesheet' href='../static/style.css')
+  link(rel='icon' href='../static/images/logo.png')
 nav#navbar
   ul
+    #logo
+      img(src='../static/images/3.png' alt='NAN')
     li
       a(href='/') Home
     li
@@ -19,4 +22,11 @@ section#sectionforpicture
   div Welcome to Pankaj Dance Academy
   div Eat Sleep Dance Repeat
 section#sectionforsponser
-  | This is section for sponser
+  h2 Our Sponser
+  .sponser
+    img(src='../static/images/logo1.png' alt='Sponser Image')
+    img(src='../static/images/logo2.png' alt='Sponser Image')
+    img(src='../static/images/logo3.png' alt='Sponser Image')
+    img(src='../static/images/logo4.png' alt='Sponser Image')
+footer#foot
+  | Copyright 2022 : Made By Pankaj | All Right Reserved
