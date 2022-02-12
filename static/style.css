@@ -1,0 +1,55 @@
+/* imported font family */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Redressed&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+font-family: 'Redressed', cursive;
+}
+
+
+#navbar li{
+    list-style: none;
+    padding: 2px 12px;
+    margin: 8px 15px;
+}
+
+nav{
+    margin: 0px 0px;
+    padding: 6px 8px;
+    background: black;
+}
+
+a{
+    text-decoration: none;
+    font-size: 1.7rem;
+    color: white;
+}
+
+a:hover{
+    color:blue;
+    font-size: 1.8rem;
+    /* when we hover a tag then color willchange into blue  */
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+#sectionforpicture{
+    height: 500px;
+    background-color: aqua;
+    background: center /cover no-repeat url("images/1.jpg");
+    color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    font-size: 50px;
+    font-weight: bold;
+}
