@@ -1,0 +1,31 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(http-equiv='X-UA-Compatible' content='IE=edge')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  title Dance-Website
+  link(rel='stylesheet' href='../static/style.css')
+  link(rel='stylesheet' href='../static/stylecontact.css')
+  link(rel='icon' href='../static/images/logo.png')
+nav#navbar
+  ul
+    #logo
+      img(src='../static/images/3.png' alt='NAN')
+    li
+      a(href='/') Home
+    li
+      a(href='/') Services
+    li
+      a(href='/') About Us
+    li
+      a(href='/contact') Contact Us
+.container
+  form(action='/' method='post')
+    input#name(type='text' name='Name' required='' inputmode='text' placeholder='Enter your name')
+    input#Gender(type='text' name='Gender' required='' inputmode='text' placeholder='Enter your Gender')
+    input#Age(type='age' name='Age' required='' inputmode='numeric' placeholder='Enter your Age')
+    textarea(name='more' id='' cols='32' rows='6' placeholder='Do you have any injuries, if had then write here a little about your injuries')
+    textarea(name='address' id='' cols='32' rows='6' placeholder='More About You & your address')
+    button.btn Submit
+footer#foot
+  | Copyright 2022 : Made By Pankaj | All Right Reserved

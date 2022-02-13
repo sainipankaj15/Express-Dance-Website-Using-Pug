@@ -1,6 +1,6 @@
 const express = require('express');
 const path = require('path');
-const port = 8001;
+const port = 8000;
 const app = express();
 
 
@@ -18,6 +18,11 @@ app.set('views', path.join(__dirname, 'views')); // set the views folder
 app.get("/", (req, res) => {
 
     res.status(200).render('index.pug');
+});
+
+app.get("/contact", (req, res) => {
+
+    res.status(200).render('contact.pug');
 });
 
 
